@@ -216,7 +216,7 @@ header .fa-bars{
 }
 .team .row{
 
-   background: url(./img/background/reviews-bg.jpg);
+   background: url(reviews_bg.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
