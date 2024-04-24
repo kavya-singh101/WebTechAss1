@@ -42,24 +42,3 @@ var swiper = new Swiper(".team-slider", {
 
 
 
-function onlogin() {
-
-  log = document.getElementById("login");
-  if (a != 1) {
-    log.innerHTML = "Login"
-  }
-  else {
-    log.innerHTML = n.value;
-  }
-}
-
-function check() {
-  var a = 0;
-  var n = document.getElementById("n");
-  var password = document.getElementById("myInput");
-  if (n.value != "" && password.value != "") {
-    a = 1;
-  }
-
-  window.location.href = "./index.html"
-}
